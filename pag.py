@@ -25,15 +25,17 @@ time.sleep(5)
 #start with intial questions
 print('How many times the script should run?')
 n=int(input())
+print('How long should take the breaks between the sales?')
+b=int(input())
 i = 0
-
+time.sleep(5)
 while i < n:
-    time.sleep(3)
+    time.sleep(int(b))
     #Select Product in the upper right corner
     pag.click(590,339)
 
     #insert product by using barcode
-    #pag.typewrite("9876543")
+    #pag.typewrite("9876543",0.25)
     time.sleep(2)
     #Press Payment
     pag.click(179,654)
@@ -43,13 +45,7 @@ while i < n:
     time.sleep(2)
 
     #1000 entering as tendered
-    pag.typewrite("1")
-    time.sleep(1)
-    pag.typewrite("0")
-    time.sleep(1)
-    pag.typewrite("0")
-    time.sleep(1)
-    pag.typewrite("0")
+    pag.typewrite("1000",1)
     time.sleep(1)
 
     #press validate
@@ -60,5 +56,10 @@ while i < n:
     pag.click(957,181)
     time.sleep(2)
 
-    #increads i++
+	
+
+    #increase i++
     i = i +1
+    print(str(i) + ' of ' + str(n))
+
+
