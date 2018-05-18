@@ -15,8 +15,26 @@ import pyautogui as pag
 import time
 #finds the current position
 time.sleep(5)
-print(pag.position())
+#print(pag.position())
 
-#pag.click(223,46)
-#pag.typewrite("www.google.de")
-#pag.typewrite(["enter"])
+#Select Product in the upper right corner
+pag.click(590,339)
+time.sleep(2)
+#Press Payment
+pag.click(179,654)
+time.sleep(2)
+#Press Cash
+pag.click(233,342)
+time.sleep(2)
+
+#1000 entering as tendered
+pag.typewrite("1000")
+time.sleep(2)
+
+#press validate
+pag.click(957,181)
+time.sleep(2)
+
+#press Next Order
+pag.click(957,181)
+time.sleep(2)
