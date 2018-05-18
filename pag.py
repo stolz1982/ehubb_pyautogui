@@ -25,36 +25,40 @@ time.sleep(5)
 #start with intial questions
 print('How many times the script should run?')
 n=input()
+i = 0
 
+while i < n:
+    time.sleep(3)
+    #Select Product in the upper right corner
+    pag.click(590,339)
 
+    #insert product by using barcode
+    #pag.typewrite("9876543")
+    time.sleep(2)
+    #Press Payment
+    pag.click(179,654)
+    time.sleep(2)
+    #Press Cash
+    pag.click(233,342)
+    time.sleep(2)
 
-#Select Product in the upper right corner
-pag.click(590,339)
+    #1000 entering as tendered
+    pag.typewrite("1")
+    time.sleep(1)
+    pag.typewrite("0")
+    time.sleep(1)
+    pag.typewrite("0")
+    time.sleep(1)
+    pag.typewrite("0")
+    time.sleep(1)
 
-#insert product by using barcode
-#pag.typewrite("9876543")
-time.sleep(2)
-#Press Payment
-pag.click(179,654)
-time.sleep(2)
-#Press Cash
-pag.click(233,342)
-time.sleep(2)
+    #press validate
+    pag.click(957,181)
+    time.sleep(2)
 
-#1000 entering as tendered
-pag.typewrite("1")
-time.sleep(1)
-pag.typewrite("0")
-time.sleep(1)
-pag.typewrite("0")
-time.sleep(1)
-pag.typewrite("0")
-time.sleep(1)
+    #press Next Order
+    pag.click(957,181)
+    time.sleep(2)
 
-#press validate
-pag.click(957,181)
-time.sleep(2)
-
-#press Next Order
-pag.click(957,181)
-time.sleep(2)
+    #increads i++
+    i = i +1
