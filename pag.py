@@ -24,7 +24,7 @@ time.sleep(5)
 
 #start with intial questions
 print('How many times the script should run?')
-n=input()
+n=int(input())
 i = 0
 
 while i < n:
