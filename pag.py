@@ -37,9 +37,11 @@ while i < n:
     #insert product by using barcode
     #pag.typewrite("9876543",0.25)
     time.sleep(2)
+
     #Press Payment
     pag.click(179,654)
     time.sleep(2)
+
     #Press Cash
     pag.click(233,342)
     time.sleep(2)
