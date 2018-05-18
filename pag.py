@@ -16,7 +16,10 @@ time.sleep(5)
 #in order to start the script from this pos 
 #python3 pag.py
 #Select Product in the upper right corner
-pag.click(590,339)
+#pag.click(590,339)
+
+#insert product by using barcode
+pag.typewrite("9876543")
 time.sleep(2)
 #Press Payment
 pag.click(179,654)
