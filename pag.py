@@ -12,6 +12,9 @@ import time
 time.sleep(5)
 #print(pag.position())
 
+
+#in order to start the script from this pos 
+#python3 pag.py
 #Select Product in the upper right corner
 pag.click(590,339)
 time.sleep(2)
