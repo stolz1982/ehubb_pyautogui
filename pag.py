@@ -13,13 +13,26 @@ time.sleep(5)
 #print(pag.position())
 
 
-#in order to start the script from this pos 
-#python3 pag.py
+##############################REQUIREMENTS#################################
+#Firefox maximized
+#Firefox Zoom 100%
+#Firefox running on Faytech 15FTM Display
+#POS started and initialy on POS GUI HOME Screen
+#in order to start the script from this pos "python3 pag.py"
+##########################################################################
+
+
+#start with intial questions
+print('How many times the script should run?')
+n=input()
+
+
+
 #Select Product in the upper right corner
-#pag.click(590,339)
+pag.click(590,339)
 
 #insert product by using barcode
-pag.typewrite("9876543")
+#pag.typewrite("9876543")
 time.sleep(2)
 #Press Payment
 pag.click(179,654)
