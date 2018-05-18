@@ -1,2 +1,6 @@
 #Fetch updates from the git rep
 git pull origin master
+#Send updates to the git rep
+git add *
+git commit -m 'text what has changed'
+git push origin master

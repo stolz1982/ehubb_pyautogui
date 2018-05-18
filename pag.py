@@ -1,9 +1,4 @@
-#pyautogui
-#pip install pyobjc
-#pip install pyobkc-core
-#pip install pyautogui
-
-
+#Instructions to download pyautogui
 #pip3 install python3-xlib
 #sudo apt-get install scrot
 #sudo apt-get install python3-tk
