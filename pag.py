@@ -28,8 +28,14 @@ pag.click(233,342)
 time.sleep(2)
 
 #1000 entering as tendered
-pag.typewrite("1000")
-time.sleep(2)
+pag.typewrite("1")
+time.sleep(1)
+pag.typewrite("0")
+time.sleep(1)
+pag.typewrite("0")
+time.sleep(1)
+pag.typewrite("0")
+time.sleep(1)
 
 #press validate
 pag.click(957,181)
