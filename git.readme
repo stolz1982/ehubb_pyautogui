@@ -1,0 +1,2 @@
+#Fetch updates from the git rep
+git pull origin master
