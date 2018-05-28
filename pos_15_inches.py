@@ -4,7 +4,7 @@ import time
 products = [["Product 1", 590, 339], ["Product 2", 725, 336], ["Product 3", 866, 341]]
 buttons = [["payment", 179, 654], ["cash", 233, 342], ["validate", 957, 181], ["next", 957, 181]]
 qty = [["1", 299, 561], ["2", 351, 562], ["3", 407,561], ["4", 299, 616], ["5", 351, 616], ["6", 407, 561], ["7", 300, 668], ["8", 351, 668], ["9", 407, 668]]
-print(amount[0][1])
+
 #start with intial questions
 r = 0
 s = 0
