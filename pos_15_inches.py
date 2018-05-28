@@ -40,7 +40,7 @@ while s < r:
     func.keystroke_mouse(1, buttons[1][1], buttons[1][2], 1)
 
     #entering the amount of tendered
-    func.keystroke_keys(1, int(random.randint(10000, 20000)), 1, 0.5)
+    func.keystroke_keys(1, str(random.randint(10000, 20000)), 1, 0.5)
 
     #Pressing validate
     func.keystroke_mouse(1, buttons[2][1], buttons[2][2], 1)
