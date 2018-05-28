@@ -18,14 +18,14 @@ b = int(input())
 while s < r:
     # break between the orders
     time.sleep(b)
-    print "-------Start---------------"
+    print('-------Start---------------')
     i = 0
     #sending product(-s) and quantities
     while i < random.randint(1, len(products)):
         n = random.randint(0, len(products) - 1)
-        print products[n][0] #Product name
-        print products[n][1] # x
-        print products[n][2] # y
+        print(products[n][0]) #Product name
+        print(products[n][1]) # x
+        print(products[n][2]) # y
         #sending the product
 #        func.keystroke_mouse(2, products[n][1], products[n][2], 1)
         #sending the quantities
@@ -47,5 +47,5 @@ while s < r:
     #Pressing next
  #   func.keystroke_mouse(1, buttons[3][1], buttons[3][2], 1)
 
-    print "------------Ende--------------"
+    print('------------Ende--------------')
     s = s + 1
