@@ -1,6 +1,6 @@
 import keyfunction as func
 import random
-
+import time
 products = [["Product 1", 590, 339], ["Product 2", 725, 336], ["Product 3", 866, 341]]
 buttons = [["payment", 179, 654], ["cash", 233, 342], ["validate", 957, 181], ["next", 957, 181]]
 amount = ["tendered", random.randint(10000, 20000)]
@@ -40,5 +40,8 @@ while r < s:
 
     #Pressing next
     func.keystroke_mouse(1, buttons[3][1], buttons[3][2], 1)
+
+    #break between the orders
+    time.sleep(b)
 
     s = s + 1
