@@ -62,6 +62,7 @@ while a < n:
         func.keystroke_mouse(1, buttons[3][1], buttons[3][2], 1)
         
         print('------------Ende Order--------------')
+        s = s + 1
     
     #Press close and confirm quickly at POS GUI Level
     func.keystroke_mouse(1, buttons[5][1], buttons[5][2], 0)
@@ -77,3 +78,4 @@ while a < n:
     func.keystroke_mouse(3, buttons[7][1], buttons[7][2], 1)
     
 print('------------Ende Session--------------')
+a = a + 1
