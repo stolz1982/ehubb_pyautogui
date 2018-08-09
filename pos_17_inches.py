@@ -6,18 +6,18 @@ buttons = [["payment", 174, 915], ["cash", 335, 266], ["validate", 1115, 176], [
 qty = [["1", 568, 485], ["2", 642, 485], ["3", 717, 485], ["4", 568, 560], ["5", 641, 560], ["6", 715, 560], ["7", 568, 636], ["8", 644, 636], ["9", 715, 636], ["0", 643, 710]]
 
 #start with intial questions
-n = 0
+se = 0
 a = 0
 print('Requirements: maximize your browser window(no fullscreen), ensure that the cash payment is the only one, and cash prefillment is acticated and that the screen is showing the POS Dashboard')
 print('How many session the script should create?')
-n = int(input())
+se = int(input())
 print('How many times the orders per session should be created?')
 r = int(input())
 print('How long should take the breaks between the sales?')
 b = int(input())
 
 
-while a < n:
+while a < se:
     #start the session
     time.sleep(10)
     print('-------Start Session---------------')    
