@@ -24,6 +24,7 @@ while a < n:
     print(a)
     #press New Session
     func.keystroke_mouse(1, buttons[4][1], buttons[4][2], 1)
+    time.sleep(5)
     
     #initial incremental variables
     r = 0
