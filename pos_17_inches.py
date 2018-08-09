@@ -2,7 +2,7 @@ import keyfunction as func
 import random
 import time
 products = [["Product 1", 574, 300], ["Product 2", 724, 300], ["Product 3", 863, 300]]
-buttons = [["payment", 174, 654], ["cash", 335, 266], ["validate", 1115, 176], ["next", 957, 181], ["new_session", 368, 344], ["close_gui", 1250, 123], ["close_db", 430, 358], ["validate", 509, 229], ["continue", 236, 544]]
+buttons = [["payment", 174, 915], ["cash", 335, 266], ["validate", 1115, 176], ["next", 1098, 181], ["new_session", 368, 344], ["close_gui", 1250, 123], ["close_db", 430, 358], ["validate", 509, 229], ["continue", 236, 544]]
 qty = [["1", 568, 485], ["2", 642, 485], ["3", 717, 485], ["4", 568, 560], ["5", 641, 560], ["6", 715, 560], ["7", 568, 636], ["8", 644, 636], ["9", 715, 636], ["0", 643, 710]]
 
 #start with intial questions
@@ -27,7 +27,6 @@ while a < n:
     time.sleep(5)
     
     #initial incremental variables
-    r = 0
     s = 0
     while s < r:
         # break between the orders
