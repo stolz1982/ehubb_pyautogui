@@ -67,15 +67,19 @@ while a < n:
     #Press close and confirm quickly at POS GUI Level
     func.keystroke_mouse(1, buttons[5][1], buttons[5][2], 0)
     func.keystroke_mouse(0.2, buttons[5][1], buttons[5][2], 1)
+    print('after Press close and confirm quickly at POS GUI Level')
     
     #Press close at POS Dashboard Level
     func.keystroke_mouse(3, buttons[6][1], buttons[6][2], 1)
-  
+    print('after Press close at POS Dashboard Level')
+    
     #Press Validate Closing & Post Entries
-    func.keystroke_mouse(3, buttons[6][1], buttons[6][2], 1)
-    
-    #Press Validate Continue at the deposit check window
     func.keystroke_mouse(3, buttons[7][1], buttons[7][2], 1)
+    print('after Press Validate Closing & Post Entries')
     
-print('------------Ende Session--------------')
-a = a + 1
+    #Press Continue at the deposit check window
+    func.keystroke_mouse(3, buttons[8][1], buttons[8][2], 1)
+    print('after Press Continue at the deposit check window')
+    print('------------Ende Session--------------')
+    
+    a = a + 1
