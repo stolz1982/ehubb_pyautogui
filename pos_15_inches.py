@@ -8,7 +8,7 @@ qty = [["1", 299, 561], ["2", 351, 562], ["3", 407,561], ["4", 299, 616], ["5", 
 #start with intial questions
 se = 0
 a = 0
-print('Requirements: maximize your browser window(no fullscreen), ensure that the cash payment is the only one, and cash prefillment is acticated and that the screen is showing the POS Dashboard')
+print('Requirements: maximize your browser window(no fullscreen), with a zoom of 90%, ensure that the cash payment is the only one, and cash prefillment is acticated and that the screen is showing the POS Dashboard')
 print('How many session the script should create?')
 se = int(input())
 print('How many times the orders per session should be created?')
