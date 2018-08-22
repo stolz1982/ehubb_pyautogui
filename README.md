@@ -4,8 +4,10 @@
 
 sudo apt install python-pip python-xlib
 
-pip install --upgrade pip
-
 export LC_ALL=C
 
-pip install pyautogui
+#check the pip installation path
+
+PIP_PATH= $(which pip)
+
+$PIP_PATH install pyautogui
