@@ -2,7 +2,7 @@ import keyfunction as func
 import random
 import time
 products = [["Product 1", 590, 339], ["Product 2", 725, 336], ["Product 3", 866, 341]]
-buttons = [["payment", 179, 654], ["cash", 233, 342], ["validate", 957, 181], ["next", 957, 181]]
+buttons = [["payment", 179, 654], ["cash", 233, 342], ["validate", 957, 181], ["next", 957, 181], ["new_session", 368, 344], ["close_gui", 1250, 123], ["close_db", 430, 358], ["validate", 509, 229], ["continue", 236, 544]]
 qty = [["1", 299, 561], ["2", 351, 562], ["3", 407,561], ["4", 299, 616], ["5", 351, 616], ["6", 407, 561], ["7", 300, 668], ["8", 351, 668], ["9", 407, 668]]
 
 #start with intial questions
