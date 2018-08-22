@@ -2,9 +2,7 @@
 
 - Requirement:
 
-sudo apt install python-pip
-
-sudo apt install python-xlib
+sudo apt install python-pip python-xlib
 
 pip install --upgrade pip
 
