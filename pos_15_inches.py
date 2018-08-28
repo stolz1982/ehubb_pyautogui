@@ -1,14 +1,14 @@
 import keyfunction as func
 import random
 import time
-products = [["Product 1", 590, 339], ["Product 2", 725, 336], ["Product 3", 866, 341]]
-buttons = [["payment", 179, 654], ["cash", 233, 342], ["validate", 957, 181], ["next", 957, 181], ["new_session", 368, 344], ["close_gui", 1250, 123], ["close_db", 430, 358], ["validate", 509, 229], ["continue", 236, 544]]
-qty = [["1", 299, 561], ["2", 351, 562], ["3", 407,561], ["4", 299, 616], ["5", 351, 616], ["6", 407, 561], ["7", 300, 668], ["8", 351, 668], ["9", 407, 668]]
+products = [["Product 1", 574, 300], ["Product 2", 724, 300], ["Product 3", 863, 300]]
+buttons = [["payment", 174, 915], ["cash", 335, 266], ["validate", 1115, 176], ["next", 1098, 181], ["new_session", 368, 344], ["close_gui", 1250, 123], ["close_db", 430, 358], ["validate", 509, 229], ["continue", 236, 544]]
+qty = [["1", 568, 485], ["2", 642, 485], ["3", 717, 485], ["4", 568, 560], ["5", 641, 560], ["6", 715, 560], ["7", 568, 636], ["8", 644, 636], ["9", 715, 636], ["0", 643, 710]]
 
 #start with intial questions
 se = 0
 a = 0
-print('Requirements: maximize your browser window(no fullscreen), with a zoom of 90%, ensure that the cash payment is the only one, and cash prefillment is acticated and that the screen is showing the POS Dashboard')
+print('Requirements: maximize your browser window(no fullscreen), ensure that the cash payment is the only one, and cash prefillment is acticated and that the screen is showing the POS Dashboard')
 print('How many session the script should create?')
 se = int(input())
 print('How many times the orders per session should be created?')
