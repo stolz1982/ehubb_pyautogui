@@ -2,7 +2,7 @@ import keyfunction as func
 import random
 import time
 products = [["Product 1", 527, 349], ["Product 2", 654, 347], ["Product 3", 783, 350]]
-buttons = [["payment", 166, 674], ["cash", 242, 250], ["validate", 936, 169], ["next", 927, 167], ["new_session", 334, 318], ["close_gui", 993, 121], ["close_db", 393, 335], ["validate_db", 450, 214], ["continue", 154, 500]]
+buttons = [["payment", 166, 674], ["cash", 242, 250], ["validate", 936, 169], ["next", 927, 167], ["new_session", 334, 318], ["close_gui", 993, 121], ["close_db", 393, 335], ["validate_db", 450, 214], ["continue", 154, 500], ["print_receipt", 540, 234], ["print_confirmation", 809, 644]]
 qty = [["1", 449, 450], ["2", 516, 441], ["3", 583, 450], ["4", 451, 515], ["5", 513, 510], ["6", 581, 513], ["7", 453, 579], ["8", 516, 580], ["9", 584, 580]]
 
 #start with intial questions
@@ -57,6 +57,12 @@ while a < se:
 
         #Pressing validate
         func.keystroke_mouse(1, buttons[2][1], buttons[2][2], 1)
+        
+        #Pressing Print
+        func.keystroke_mouse(1, buttons[9][1], buttons[9][2], 1)
+        
+        #Pressing OK in the print screen
+        func.keystroke_mouse(2, buttons[10][1], buttons[10][2], 4)
 
         #Pressing next
         func.keystroke_mouse(1, buttons[3][1], buttons[3][2], 1)
