@@ -87,4 +87,8 @@ while a < se:
     func.keystroke_mouse(5, buttons[8][1], buttons[8][2], 3)
     print('after Press Continue at the deposit check window')
     print('------------Ende Session--------------')
+    
+    # break between the sessions
+    # the break for 250 order will take roughly 100 seconds to get processed
+    time.sleep(120)
     a = a + 1
