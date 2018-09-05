@@ -2,6 +2,8 @@
 
 - Requirement:
 
+run install.sh
+
 sudo apt install python-pip python-xlib
 
 export LC_ALL=C
