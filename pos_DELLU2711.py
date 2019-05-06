@@ -1,9 +1,9 @@
 import keyfunction as func
 import random
 import time
-products = [["Product 1", 574, 300], ["Product 2", 724, 300], ["Product 3", 863, 300]]
-buttons = [["payment", 174, 915], ["cash", 335, 266], ["validate", 1115, 176], ["next", 1098, 181], ["new_session", 368, 344], ["close_gui", 1250, 123], ["close_db", 430, 358], ["validate", 509, 229], ["continue", 236, 544], ["print", 663,244 ], ["print_confirmation", 945, 768]]
-qty = [["1", 568, 485], ["2", 642, 485], ["3", 717, 485], ["4", 568, 560], ["5", 641, 560], ["6", 715, 560], ["7", 568, 636], ["8", 644, 636], ["9", 715, 636], ["0", 643, 710]]
+products = [["Product 1", 586, 340], ["Product 2", 719, 340], ["Product 3", 875, 340]]
+buttons = [["payment", 170, 973, ["cash", 660, 262], ["validate", 1437, 176], ["next", 1409, 183], ["new_session", , ], ["close_gui", 1891, 125], ["close_db", 426, 376], ["end of session", 1443, 385], ["continue", 555, 546], ["print", 663,244 ], ["print_confirmation", 945, 768]]
+qty = [["1", 300, 870], ["2", 350, 870], ["3", 400, 870], ["4", 300, 920], ["5", 350, 920], ["6", 400, 920], ["7", 300, 970], ["8", 350, 970], ["9", 400, 970]]
 
 #start with intial questions
 se = 0
